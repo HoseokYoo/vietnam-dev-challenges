@@ -24,9 +24,25 @@ class Library {
 
   // Method to get books by a specific author
   // Write your code here
+  public getBooks(author: string){
+    this.books.forEach(book => {
+      if(author == book.author){
+        console.log(book);
+      }
+    })
+  }
 
   // Method to calculate the total number of pages for a specific author
   // Write your code here
+  public getTotal_page(author: string){
+    let total_pages=0;
+    this.books.forEach(book => {
+      if(author == book.author){
+        total_pages+=book.pages;
+      }
+    })
+    console.log("Total page of "+author+": ", total_pages);
+  }
 }
 
 // Initialize the book data
@@ -40,5 +56,7 @@ const books: Book[] = [
 
 // Create an instance of the Library class and process the data
 // Write your code here
-
+console.log("Those are books of author A: ");
+books.getBooks("Author A");
+books.getTotal_page("Author A");
 ```

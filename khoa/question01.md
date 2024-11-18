@@ -13,12 +13,23 @@ const numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // Filter even numbers and create a new array
 // Write your code here
-
+let new_arr=[10];
+for(let i=0;i<numbers.length;i++){
+    if(numbers%2==0){
+        new_arr.push(numbers[i]);
+    }
+}
 // Calculate the sum of the new array
 // Write your code here
+let sum=0;
+for(let i=0;i<new_arr.length;i++){
+    sum+=new_arr[i];
+}
 
 // Print the new array and its sum
 // Write your code here
+console.log("new array: ",new_arr);
+console.log("sum of new array: ",sum);
 
 ```
 

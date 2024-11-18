@@ -62,6 +62,7 @@ class Order {
 
 ```
 
+
 ```csharp
 
 using System;
@@ -80,11 +81,18 @@ class Program {
         };
 
         // Group by product name and calculate the total quantity
-        // Write your code here
+        var groupOrders = orders
+        .GroupBy(o => o.ProductName)
+        .Select(g => new {
+            ProductName = g.Key,
+            TotalQuantity = g.Sum(o => o.Quantity)
+        });
 
         // Print the result
-        // Write your code here
+        foreach (var order in groupOrders) {
+            Console.WriteLine($"Product: {order.ProductName}, Total Quantity: {order.TotalQuantity}")
     }
+}
 }
 
 class Order {

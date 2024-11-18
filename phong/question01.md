@@ -26,6 +26,7 @@ public class Main {
         // Write your code here
 
         // Print the total length
+        
         // Write your code here
     }
 }
@@ -43,9 +44,12 @@ class Program {
 
         // Calculate the length of each string and sum them up
         // Write your code here
-
+        
+        int i;
+        for(i=0; i< strlen(strings); i++>)
         // Print the total length
         // Write your code here
+        Printf("str[strings]")
     }
 }
 

@@ -28,8 +28,11 @@ public class Main {
             new User("Diana", 18)
         );
 
+
+
         // Filter users aged 20 or older and extract their names
         // Write your code here
+
 
         // Print the result
         // Write your code here
@@ -63,7 +66,6 @@ class User {
 
 
 ```csharp
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -79,10 +81,12 @@ class Program {
         };
 
         // Filter users aged 20 or older and extract their names
-        // Write your code here
+        
+        var filteredNames = users.Where(user => user.Age >= 20).Select(user => user.Name).ToList();
 
         // Print the result
-        // Write your code here
+
+        filteredNames.ForEach(name => Console.WriteLine(name));
     }
 }
 
@@ -95,6 +99,7 @@ class User {
         Age = age;
     }
 }
+
 
 
 ```

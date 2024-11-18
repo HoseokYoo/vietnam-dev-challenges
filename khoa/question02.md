@@ -23,9 +23,16 @@ const students: Student[] = [
 
 // Calculate the average score and filter students
 // Write your code here
+for(var i=0;i<students.length;i++){
+    students[i].avg_score = ((students[i].scores[0]+students[i].scores[1]+students[i].scores[2])/3);
+}
 
 // Print the names of students with an average score >= 80
 // Write your code here
-
+for(var i=0;i<students.length;i++){
+   if( students[i].avg_score>=80){
+    console.log(students[i]);
+   }
+}
 ```
 

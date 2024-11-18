@@ -1,20 +1,19 @@
 # Developer Interview Questions
-
-## 1. 현재 업무에 대한 만족도 (Current Task Satisfaction)
-### 질문
-- 현재 맡고 있는 업무(온라인 설문지 작성 포함)에 대해 어떻게 느끼고 있나요? 만족스러운 부분과 그렇지 않은 부분이 있다면 구체적으로 말씀해 주세요.
-- **English:** Do you feel satisfied with your current tasks (including designing online surveys)? Please share specific aspects you find satisfying or unsatisfactory.
-- **Tiếng Việt:** Bạn cảm thấy thế nào về nhiệm vụ hiện tại của mình (bao gồm cả việc thiết kế khảo sát trực tuyến)? Hãy chia sẻ những khía cạnh bạn thấy hài lòng hoặc chưa hài lòng.
-
 ---
 
-## 2. 개발자로서의 동기와 열정 (Motivation and Passion as a Developer)
-### 질문
-- 개발자로서 처음 기대했던 업무와 현재의 업무가 다를 수 있습니다. 이러한 차이가 본인의 동기나 열정에 영향을 미쳤나요? 그렇다면 어떻게 영향을 미쳤나요?
-- **English:** The tasks you’re handling now might differ from what you initially expected as a developer. Has this gap influenced your motivation or passion? If so, how?
-- **Tiếng Việt:** Các nhiệm vụ hiện tại có thể khác với những gì bạn mong đợi ban đầu khi là một nhà phát triển. Điều này có ảnh hưởng đến động lực hay niềm đam mê của bạn không? Nếu có, thì như thế nào?
+저는 PMI 개발 팀장인 유호석입니다. yu라고 불러주시면 되겠습니다.
 
----
+PMI 한국 개발팀과 협업을 통해 어떤 업무를 진행할 수 있을 지 파악하는 인터뷰입니다.
+
+코딩 실력을 간단하게 파악하기 위해 3가지 문제를 준비했습니다.
+
+못해도 좋으니, 그동안 공부했던 내용을 바탕으로 부담없이 작성해 주시길 바랍니다.
+
+이력서를 참고해서 주 언어로 문제를 작성했으니, 편한 언어를 선택해 작성해주세요.(java, C#, javascript)
+
+검색 혹은 ChatGPT를 이용한 작성은 금지합니다.
+
+제한 시간은 20분입니다.
 
 ## 3. 향후 커리어 목표 (Future Career Goals)
 ### 질문

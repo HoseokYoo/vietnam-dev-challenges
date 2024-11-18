@@ -32,8 +32,10 @@ public class Main {
 
         // Extract strings matching the specific pattern
         // Write your code here
+        
 
         // Print the result
+        Printf()
         // Write your code here
     }
 }
@@ -58,7 +60,7 @@ class Program {
 
         // Extract strings matching the specific pattern
         // Write your code here
-
+        
         // Print the result
         // Write your code here
     }
